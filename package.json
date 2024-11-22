@@ -1,0 +1,13 @@
+{
+	"name": "test-runners",
+	"version": "1.0",
+	"main": "orderTotal.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "GG",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}

@@ -25,6 +25,4 @@ const customerTotal = order => {
     return total;
 }
 
-if (customerTotal(customerOrder) !== 808) { throw new Error("Test Failed! expected value of 808. Value is " + customerTotal(customerOrder)) } else console.log("Test 1 passed!")
-
-if (customerTotal(customerOrder2) !== 60) { throw new Error("Test Failed! expected value of 60. Value is " + customerTotal(customerOrder2)) } else console.log("Test 2 passed!")
+module.exports = { customerOrder, customerOrder2, customerTotal }
