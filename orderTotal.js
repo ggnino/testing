@@ -13,10 +13,10 @@ const item4 = new ShoppingItem('Dragon collar', 20);
 const shoppingCart = [item1, item2];
 const shoppingCart2 = [item3, item4];
 
-const customerOrder = { items: shoppingCart };
-const customerOrder2 = { items: shoppingCart2 };
+export const customerOrder = { items: shoppingCart };
+export const customerOrder2 = { items: shoppingCart2 };
 
-const customerTotal = order => {
+export const customerTotal = order => {
     let total = 0;
     if (order.items) {
 
@@ -25,4 +25,3 @@ const customerTotal = order => {
     return total;
 }
 
-module.exports = { customerOrder, customerOrder2, customerTotal }
