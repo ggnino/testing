@@ -3,7 +3,8 @@
 	"version": "1.0",
 	"main": "orderTotal.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"watch": "jest --watch *.js"
 	},
 	"author": "GG",
 	"license": "ISC",

@@ -1,8 +1,11 @@
 
 const { customerTotal, customerOrder, customerOrder2 } = require("./orderTotal")
 
-it('works', () => { })
+it('Order Total', () => {
+    expect(customerTotal(customerOrder)).toBe(808);
+})
 
-if (customerTotal(customerOrder) !== 808) { throw new Error("Test Failed! expected value of 808. Value is " + customerTotal(customerOrder)) }
+it('Order Total 2', () => {
+    expect(customerTotal(customerOrder2)).toBe(60)
+})
 
-if (customerTotal(customerOrder2) !== 60) { throw new Error("Test Failed! expected value of 60. Value is " + customerTotal(customerOrder2)) }
